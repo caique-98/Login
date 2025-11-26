@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    
+}
+
+section{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+#img{
+    background: url(entrada.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: ;
+    height: 100%;
+    background-position: bottom;
+}
