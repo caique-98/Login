@@ -37,6 +37,8 @@ section#login{
     transform: translate(-50% , -50%);
     box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.144);
     border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 p{
@@ -50,12 +52,14 @@ div#imagem{
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     height: 38%;
     box-shadow: 1px 10px 15px rgba(202, 175, 149, 0.233);
     margin-bottom: 1vh;
     position: relative;
-
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 
@@ -63,8 +67,8 @@ div#imagem{
 input{
     border: none;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.055);
-    height: 9vh;
-    width: 38vh;
+    height: 60px;
+    width: 250px;
     font-size: small;
     font-style: italic;
     letter-spacing: 1px;
@@ -93,51 +97,9 @@ a{
 
 
 @media screen and (min-width:500px) {
-    input{
-        height: 7vh;
-        width: 27vh;
-    }
-
-    
+   
 }
 
 @media screen and (min-width:800px) {
 
-    section#login{
-    background-color: white;
-    width: 633px;
-    height: 640px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50%);
-    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.144);
-    border-radius: 10px;
 }
-
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    line-height: 2.5em;
-}
-
-div#imagem{
-    background-image: url(entrada.jpg);
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: cover;
-    width: 100%;
-    height: 38%;
-    box-shadow: 1px 10px 15px rgba(202, 175, 149, 0.233);
-    margin-bottom: 1vh;
-    position: relative;
-
-}
-    
-    input{
-        height: 7vh;
-        width: 27vh;
-    }
-
-}
-
