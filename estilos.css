@@ -20,7 +20,7 @@ main{
     height: 100vh;
     width: 100vw;
     position: relative;
-    
+
 }
 
 h1{
@@ -96,10 +96,78 @@ a{
 }
 
 
-@media screen and (min-width:500px) {
-   
+@media screen and (min-width:790px) {
+    main{
+        
+    }
+
+    section#login{
+        height: 750px;
+        width: 760px;
+        position: relative;
+    }
+
+    div#form{
+        position: absolute;
+        top: 23%;
+        left: 47%;
+    }
+
+    div#imagem{
+        height: 100%;
+        width: 38%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    nav{
+        left: 61%;
+    }
+
+    input{
+        width: 300px;
+    }
+    span{
+        margin: 0px;
+    }
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:980px) {
+
+    section#login{
+        height: 750px;
+        width: 900px;
+        position: relative;
+    }
+
+    input{
+        width: 350px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    section#login{
+        height: 800px;
+        width: 1100px;
+    }
+
+    input{
+        width: 400px;
+    }
+    
+    nav{
+        left: 63%;
+    }
+
+    div#form{
+        width: 550px;
+    }
+
+    p{
+        margin-right: 80px;
+
+    }
 
 }
