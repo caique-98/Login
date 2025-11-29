@@ -67,7 +67,7 @@ div#imagem{
 input{
     border: none;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.055);
-    height: 60px;
+    height: 50px;
     width: 250px;
     font-size: small;
     font-style: italic;
@@ -75,13 +75,52 @@ input{
     margin-top: 20px;
     margin-left: 2vh;
     border-radius: 5px;
+    background-color: rgba(202, 175, 149, 0.233);
 }
 
+input#iemail{
+    position: absolute;
+    left: 11%;
+}
+
+input#isenha{
+    position: absolute;
+    left: 11%;
+    top: 67%;
+}
+
+input#envio{
+    background-color: gray;
+    position: absolute;
+    left: 47%;
+    top: 82%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 42px;
+
+}
 
 span{
     margin-left: 1vh;
-
+    padding: 0px;
 }
+
+span#icon{
+    position: absolute;
+    top: 60.5%;
+    background-color: antiquewhite;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+span#icon2{
+    position: absolute;
+    top: 71.1%;
+    background-color: antiquewhite;
+    border-radius: 100%;
+    padding: 5px
+}
+
 
 nav{
     position: absolute;
