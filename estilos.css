@@ -112,7 +112,7 @@ input#envio{
     width: 80px;
     height: 42px;
     transition: background-color 0.3s;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     
 }
@@ -163,7 +163,7 @@ a{
 
 input#envio2{
     display: none;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
 
 }
