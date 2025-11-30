@@ -7,6 +7,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+        transition: all 0.2s ease-in-out;
+
 }
 
 body, html{
@@ -20,8 +22,6 @@ main{
     height: 100vh;
     width: 100vw;
     position: relative;
-    transition: all 0.8s ease-in-out;
-
 }
 
 h1{
@@ -78,7 +78,7 @@ input{
     border-radius: 5px;
     background-color: rgba(202, 175, 149, 0.233);
     transition: background-color 0.4s;
-
+    text-align: center;
 }
 
 input:hover{
@@ -104,7 +104,7 @@ input#isenha{
 }
 
 input#envio{
-    background-color: gray;
+    background-color: rgb(226, 167, 89);
     position: absolute;
     left: 47%;
     top: 82%;
@@ -112,15 +112,19 @@ input#envio{
     width: 80px;
     height: 42px;
     transition: background-color 0.3s;
+    font-weight: 600;
+    font-style: normal;
+    
 }
 
 input#envio:hover{
-    background-color: rgba(128, 128, 128, 0.767);
+    background-color: rgb(194, 133, 54);
 }
 
 input#envio:focus{
-    background-color: white;
+    background-color: rgb(136, 96, 47);
     border: 1px solid black;
+    color: white;
 }
 
 span{
@@ -157,6 +161,12 @@ a{
     margin: 0.5vh;
 }
 
+input#envio2{
+    display: none;
+    font-weight: 200;
+    font-style: normal;
+
+}
 
 @media screen and (min-width:790px) {
     
@@ -209,7 +219,36 @@ a{
 
     input#envio{
         top: 190%;
+        left: 40%;
+        height: 50px;
+        width: 100px;
+        transition: background-color 0.3s;
+        font-style: normal;
+
     }
+
+    input#envio2{
+        position: absolute;
+        display: block;
+        top: 173%;
+        left: 200px;
+        height: 50px;
+        width: 100px;
+        background-color: rgba(92, 73, 55, 0.233);
+    }
+
+    input#envio2:focus{
+        background-color: rgba(92, 73, 55, 0.233);
+}
+
+    input#envio2:active{
+        background-color: rgb(100, 83, 62);
+        border: 1px solid rgba(0, 0, 0, 0.322);
+        transition: background-color 0.3s;
+        color: white;
+    }
+
+    
 }
 
 @media screen and (min-width:980px) {
@@ -250,4 +289,17 @@ a{
 
     }
 
+    input#envio{
+        top: 199%;
+        width: 300px;
+        left: 47%;
+        border-radius: 0px;
+    }
+
+    input#envio2{
+        top: 230%;
+        left: 19.7%;
+        width: 300px;
+        border-radius: 0px;
+        }
 }
