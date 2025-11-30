@@ -263,6 +263,19 @@ input#envio2{
         width: 350px;
     }
 
+    div#form{
+        left: 45%;
+    }
+    
+
+    input#envio{
+        left: 50%;
+    }
+
+    input#envio2{
+        left: 80%;
+        }
+
 }
 
 @media screen and (min-width:1200px) {
