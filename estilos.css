@@ -20,6 +20,7 @@ main{
     height: 100vh;
     width: 100vw;
     position: relative;
+    transition: all 0.8s ease-in-out;
 
 }
 
@@ -76,12 +77,25 @@ input{
     margin-left: 2vh;
     border-radius: 5px;
     background-color: rgba(202, 175, 149, 0.233);
+    transition: background-color 0.4s;
+
+}
+
+input:hover{
+    background-color: antiquewhite;
+}
+
+input:focus{
+    background-color: rgba(138, 107, 78, 0.384);
+
 }
 
 input#iemail{
     position: absolute;
     left: 11%;
 }
+
+
 
 input#isenha{
     position: absolute;
@@ -97,7 +111,16 @@ input#envio{
     transform: translate(-50%, -50%);
     width: 80px;
     height: 42px;
+    transition: background-color 0.3s;
+}
 
+input#envio:hover{
+    background-color: rgba(128, 128, 128, 0.767);
+}
+
+input#envio:focus{
+    background-color: white;
+    border: 1px solid black;
 }
 
 span{
@@ -136,19 +159,17 @@ a{
 
 
 @media screen and (min-width:790px) {
-    main{
-        
-    }
+    
 
     section#login{
         height: 750px;
         width: 760px;
-        position: relative;
+        
     }
 
     div#form{
         position: absolute;
-        top: 23%;
+        top: 27%;
         left: 47%;
     }
 
@@ -157,6 +178,22 @@ a{
         width: 38%;
         border-top-right-radius: 0px;
         border-bottom-left-radius: 10px;
+    }
+
+    span#icon{
+        top: 96%;
+    }
+
+    span#icon2{
+        top: 141%;
+    }
+
+    input#isenha{
+        top: 122%;
+    }
+
+    p{
+        margin-left: 50px;
     }
 
     nav{
@@ -168,6 +205,10 @@ a{
     }
     span{
         margin: 0px;
+    }
+
+    input#envio{
+        top: 190%;
     }
 }
 
