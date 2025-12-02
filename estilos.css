@@ -168,6 +168,18 @@ input#envio2{
 
 }
 
+@media only screen and (min-width: 321px) and (max-width: 800px) and (orientation: landscape){
+    
+    div#imagem{
+        display: none;
+    }
+    
+    h1{
+        background-color: aqua;
+    }
+
+}
+
 @media screen and (min-width:790px) {
     
 
